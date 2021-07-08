@@ -5,6 +5,12 @@ These JSON commands are **callable via Python**, see examples below.
 
 **Requires Archicad 25 or later.**
 
+# Build (Windows)
+
+Open this folder in Visual Studio 2019 and wait for the CMake configuration to finish.
+You might need to adjust the value of the `AC_API_DEVKIT_DIR` in `CMakeSettings.json`.
+Then `Build all (F7)` should succesfully build the Add-On.
+
 # Implemented Commands
 
 - [Publish](#publish)
